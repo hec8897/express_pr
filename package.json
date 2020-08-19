@@ -1,0 +1,17 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "node online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx nodemon index.js",
+    "dev":"node index.js"
+  },
+  "author": "김다운",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid4": "^2.0.2"
+  }
+}
